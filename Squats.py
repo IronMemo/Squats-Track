@@ -3,7 +3,7 @@ import math
 import mediapipe as mp
 import sys
 
-num_squats = int(input("Câte genoflexiuni doriți să faceți? "))
+num_squats = int(input("What is your goal? "))
 
 
 def check_rep(angle, prev_angle, correct_reps):
